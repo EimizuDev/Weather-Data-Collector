@@ -76,3 +76,5 @@ You have two options to get the files:
 - `index.html`: Main website file for displaying the meteorological data.
 - `style.css`: File for styling the website.
 - `script.js`: Script for function like exporting data into a csv file.
+
+#### This project is licensed under the MIT License. See the `LICENSE` file for details.
