@@ -7,7 +7,7 @@
 **Stability:** stable.
 
 ## Summary
-This project is designed to collect and display meteorological data. The ESP-01 Wi-Fi module collects real-time data from various weather websites and stores it in a database for later analysis.
+This project is designed to collect and display meteorological data. The ESP-01 Wi-Fi module collects real-time data from various weather websites and stores it in a database for later analysis. I made this for a school project in 2024.
 
 ![Diagram of the weather data collector system](Images/Diagram.png)
 ![An example board with real gathered data](Images/Board.png)
