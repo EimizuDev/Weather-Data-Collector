@@ -84,7 +84,7 @@ You have two options to get the files:
 
 ## What I learned
 - **Embedded networking (ESP8266):** practical experience configuring and programming the ESP-01 module, and handling flash/upload modes.
-- **Full stack basics (Arduino → PHP → UI):** flashing and debugging Arduino sketches, building a simple PHP API, and building a minimal web UI with CSV export.
+- **Full stack basics:** flashing and debugging Arduino sketches, building a simple PHP API, and building a minimal web UI with CSV export.
 
 ### Files
 
