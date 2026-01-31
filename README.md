@@ -2,6 +2,17 @@
 
 This project is designed to collect and display meteorological data. The ESP-01 Wi-Fi module collects real-time data from various weather websites and stores it in a database for later analysis.
 
+![Diagram of the weather data collector system](Images/Diagram.png)
+![An example board with real gathered data](Images/Board.png)
+
+## Table of contents
+- [Features](#features)  
+- [Prerequisites](#prerequisites)  
+- [Getting started](#getting-started)  
+- [Problems I solved](#problems-i-solved)  
+- [What I learned](#what-i-learned)  
+- [Files](#files)  
+
 ## Features
 
 - Collects meteorological data using ESP-01 Wi-Fi module from weather websites.
@@ -67,6 +78,13 @@ You have two options to get the files:
 - Host a website.
 - Upload `data-fetch.php`, `data-save.php`, `index.html`, `style.css`, `script.js` files and configure them.
 - Ensure the database is set up to receive data from the ESP-01.
+
+## Problems I solved
+- **No historical telemetry.** Most weather APIs publish only current (real-time) data. I designed and implemented a system that collects periodic weather data from APIs, stores it to a database, and displays it through a simple web dashboard. This gives the ability to analyze historical telemetry.
+
+## What I learned
+- **Embedded networking (ESP8266):** practical experience configuring and programming the ESP-01 module, and handling flash/upload modes.
+- **Full stack basics (Arduino → PHP → UI):** flashing and debugging Arduino sketches, building a simple PHP API, and building a minimal web UI with CSV export.
 
 ### Files
 
