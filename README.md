@@ -55,7 +55,7 @@ You have two options to get the files:
      - Open a terminal or command prompt.
      - Run the following command:
      ```sh
-     git clone https://github.com/EiguliteDev/Weather-Data-Collector.git
+     git clone https://github.com/EimizuDev/Weather-Data-Collector.git
      ```
 
   2. **Download the ZIP**:
